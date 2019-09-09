@@ -1,0 +1,34 @@
+{
+	"name": "Cassandra",
+	"version": "0.1.29",
+	"versionDate": "2019-05-16",
+	"author": "hackolade",
+	"engines": {
+		"hackolade": "2.1.x",
+		"hackoladePlugin": "1.2.0"
+	},
+	"contributes": {
+		"target": {
+			"applicationTarget": "CASSANDRA",
+			"title": "Cassandra Datastax",
+			"versions": [
+				"2.x",
+				"3.x",
+				"DSE 4.x",
+				"DSE 5.x",
+				"DSE 6.X"
+			]
+		},
+		"features": {
+			"nestedCollections": false,
+			"disablePatternField": false,
+			"enableForwardEngineering": true,
+			"disableMultipleTypes": true,
+			"enableReverseEngineering": true,
+			"disableChoices": true,
+			"enableJsonType": true,
+			"enableArrayItemName": true
+		}
+	},
+	"description": "Hackolade plugin for Cassandra Datastax"
+}

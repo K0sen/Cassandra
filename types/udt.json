@@ -1,0 +1,16 @@
+{
+	"name": "udt",
+	"erdAbbreviation": "<udt>",
+	"dtdAbbreviation": "{...}",
+	"parentType": "document",
+	"useSample": false,
+	"defaultValues": {
+		"dependencies": [],
+		"primaryKey": false,
+		"properties": [],
+		"minProperties": "",
+		"maxProperties": "",
+		"frozen": true,
+		"additionalProperties": false
+	}
+}
