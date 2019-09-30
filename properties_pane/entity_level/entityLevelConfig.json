@@ -148,13 +148,11 @@ making sure that you maintain a proper JSON format.
 					{
 						"propertyName": "ID",
 						"propertyKeyword": "ID",
-						"propertyTooltip": "",
 						"propertyType": "text"
 					},
 					{
 						"propertyName": "Speculative retry",
 						"propertyKeyword": "speculative_retry",
-						"propertyTooltip": "",
 						"propertyType": "text"
 					},
 					{
@@ -261,14 +259,33 @@ making sure that you maintain a proper JSON format.
 							{
 								"propertyName": "Column name",
 								"propertyKeyword": "column_name",
-								"propertyTooltip": "",
 								"propertyType": "text"
 							},
 							{
-								"propertyName": "Order (ASC by default)",
-								"propertyTooltip": "Order (ASC by default)",
-								"propertyKeyword": "order",
+								"propertyName": "Descending order",
+								"propertyKeyword": "descending_order",
 								"propertyType": "checkbox"
+							}
+						]
+					},
+					{
+						"propertyName": "Props with nested",
+						"propertyType": "group",
+						"propertyKeyword": "nested_property",
+						"propertyTooltip": "property with nested properties",
+						"structure": [
+							{
+								"propertyName": "name",
+								"propertyKeyword": "name",
+								"propertyType": "text"
+							},
+							{
+								"propertyName": "value",
+								"propertyKeyword": "value",
+								"propertyType": "details",
+								"template": "textarea",
+								"valueType": "string",
+								"markdown": false
 							}
 						]
 					}
